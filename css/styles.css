@@ -236,7 +236,10 @@ img {
 .princip-item {
   width: calc((100% - 72px) / 4);
 }
-margin-botto .our-team {
+
+/* our-team */
+
+margin-bottom .our-team {
   padding: 120px 0;
   background-color: #f4f4fd;
 }
@@ -273,6 +276,8 @@ margin-botto .our-team {
   border-radius: 0px 0px 4px 4px;
   color: #ffffff;
   background-color: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .our-team-list {
   display: flex;
@@ -282,6 +287,8 @@ margin-botto .our-team {
   padding: 32px 0;
 }
 font-size: 16px;
+
+/* our-portfolio */
 
 .our-portfolio {
   padding-top: 120px;
@@ -326,7 +333,7 @@ font-size: 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-color: #2e .footer-logo {
+.footer-logo {
   color: #f4f4fd;
   padding: 100px 0;
 }
